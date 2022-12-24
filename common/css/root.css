@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Inter";
+    font-weight: 900;
+    src: url(../../fonts/Inter-Black.ttf);
+}
+@font-face {
+    font-family: "Inter";
+    font-weight: 700;
+    src: url(../../fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    src: url(../../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url(../../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: 100;
+    src: url(../../fonts/Roboto-ThinItalic.ttf);
+}
+
+
+:root {
+    --inter: "Inter";
+    --roboto: "Roboto";
+    --bgNavbar: #1A082C;
+    --navColor: #fff;
+    --navLink: #8E8E8E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-control::after {
+    content: "";
+    background: url(../../images/search-icon.png);
+}
